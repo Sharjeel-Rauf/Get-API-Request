@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* table styling */
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+ 
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* navigation bar 1 */
+.nav {
+    display: flex;
+    justify-content: space-between; /* Align items at both ends of the flex container */
+    align-items: center;
+    padding: 5px; /* Optional: Add padding for spacing */
+    border-bottom: solid #00ff88 5px;
+    background-color: #201b2c;
+}
+
+
+/* navigation bar 1 with text */
+.nav-list-1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 10%;
+    color: #00ff88;
+}
